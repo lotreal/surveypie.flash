@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<survey type="survey" sn="e13dc3a0-7895-4972-850e-adbd04177bdd"
+	create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:52:45"
+	rank="9999" skin_sn="" language="" expire_time="">
+	<title><![CDATA[样例调查表]]></title>
+	<intro />
+	<css ></css>
+	<part type="page" sn="5af78057-3dfa-4d61-be4a-2d24dc825c49"
+		create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:46:13"
+		rank="1">
+		<part type="separator" sn="95dd5631-b451-4f8a-b721-2c4ce11289c8"
+			create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:29:58"
+			rank="1">
+			<title><![CDATA[个人信息（分隔符）]]></title>
+			<intro><![CDATA[<p>
+	如实填写，坦白从宽（分隔符描述文字）</p>
+]]></intro>
+		</part>
+		<part type="text" sn="4b729418-4088-4e79-a39f-39c71a310ae9"
+			create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:29:58"
+			rank="2" is_require="1" form_type="input" form_height="0" form_width="0"
+			least_input="0" most_input="0" validator="">
+			<subject><![CDATA[姓名（填空题）]]></subject>
+			<intro><![CDATA[<p>
+	随便你叫什么都可以（填空题描述文字）</p>
+]]></intro>
+		</part>
+		<part type="text" sn="3bdf9f33-b1fe-4d1e-bbb0-ede47c952208"
+			create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+			rank="3" is_require="1" form_type="textarea" form_height="0"
+			form_width="0" least_input="0" most_input="0" validator="">
+			<subject><![CDATA[说点什么（问答题）]]></subject>
+			<intro />
+		</part>
+		<part type="select" sn="391311e6-36f4-4e86-b06f-d020b651eab5"
+			create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:29:58"
+			rank="4" is_require="1" form_type="radio" column_per_row="1"
+			least_choice="0" most_choice="0" shuffle_options="0">
+			<subject><![CDATA[性别（选择题 单选）]]></subject>
+			<intro><![CDATA[<p>
+	人妖死开（选择题描述文字）</p>
+]]></intro>
+			<part type="select_option" sn="3d96f6d1-0b7b-4b89-aabe-8c48f721c5ff"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="1" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[男]]></label>
+				<url />
+			</part>
+			<part type="select_option" sn="c3f63b31-ec2f-4500-a057-ff065ac2b5bb"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="2" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[女]]></label>
+				<url />
+			</part>
+		</part>
+		<part type="select" sn="6a086566-990e-4ea9-a81e-8c9e6eea15b7"
+			create_time="2010-11-01 16:52:45" update_time="2010-11-01 16:52:45.935774"
+			rank="5" is_require="1" form_type="select" column_per_row="1"
+			least_choice="0" most_choice="0" shuffle_options="0">
+			<subject><![CDATA[所在地（选择题 单选）]]></subject>
+			<intro />
+			<part type="select_option" sn="f1d4898e-4796-4e9a-a3b9-6e489f2cb798"
+				create_time="2010-11-01 16:52:45" update_time="2010-11-01 16:52:45.935774"
+				rank="1" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[塞普顿]]></label>
+				<url />
+			</part>
+			<part type="select_option" sn="4f4fb791-d280-47b6-84b5-d952a2742dd3"
+				create_time="2010-11-01 16:52:45" update_time="2010-11-01 16:52:45.935774"
+				rank="2" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[那美克]]></label>
+				<url />
+			</part>
+			<part type="select_option" sn="649526f9-39d6-47fc-859a-c06c0071b64d"
+				create_time="2010-11-01 16:52:45" update_time="2010-11-01 16:52:45.935774"
+				rank="3" mime="text/plain" score="0" allow_specify="1" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[其它星球]]></label>
+				<url />
+			</part>
+		</part>
+		<part type="select" sn="93ee7493-d2fc-4478-b094-c4e154972861"
+			create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+			rank="6" is_require="1" form_type="checkbox" column_per_row="1"
+			least_choice="0" most_choice="0" shuffle_options="0">
+			<subject><![CDATA[爱好（选择题 多选）]]></subject>
+			<intro />
+			<part type="select_option" sn="8a46fe2c-90d0-4478-8532-93d323e95cdf"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="1" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[音乐]]></label>
+				<url />
+			</part>
+			<part type="select_option" sn="0d9827ff-b857-4782-b26c-f56713b8268c"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="2" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[美食]]></label>
+				<url />
+			</part>
+			<part type="select_option" sn="a1e4ed96-fcc2-4cd9-8d29-1e3a87a7ad06"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="3" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[旅游]]></label>
+				<url />
+			</part>
+			<part type="select_option" sn="8767d219-1e5b-4815-b7bb-bfd38a2ec79b"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="4" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[阅读]]></label>
+				<url />
+			</part>
+			<part type="select_option" sn="9a632d80-a0b3-4d22-8ff5-76fb9320d22c"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="5" mime="text/plain" score="0" allow_specify="1" input_width="0"
+				least_input="0" most_input="0">
+				<label><![CDATA[其它]]></label>
+				<url />
+			</part>
+		</part>
+		<part type="matrix" sn="6b006d66-ac22-46f4-ad0e-8ac0bdd4ed01"
+			create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:29:58"
+			rank="7" is_require="1" form_type="radio" has_score="0"
+			pre_column_one_response="0">
+			<subject><![CDATA[感觉如何（组合选择题 单选）]]></subject>
+			<intro><![CDATA[<p>
+	.... （组合选择题描述文字）</p>
+]]></intro>
+			<part type="matrix_option" sn="0eb698d0-6de8-40b9-88f8-2b9aeca6611e"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="1" direction="row" score="0">
+				<label><![CDATA[今天心情如何（行选项）]]></label>
+			</part>
+			<part type="matrix_option" sn="7f458236-cb34-4991-9293-3d4df7f6cd99"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="2" direction="row" score="0">
+				<label><![CDATA[今天中午吃得怎么样]]></label>
+			</part>
+			<part type="matrix_option" sn="e0b1d0c0-fc5c-4396-9eea-2e4570065358"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="3" direction="row" score="0">
+				<label><![CDATA[昨天晚上睡得好不好]]></label>
+			</part>
+			<part type="matrix_option" sn="b0c8b233-f38e-4dee-b1b8-08dd5fa175b5"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="4" direction="col" score="0">
+				<label><![CDATA[很好（列选项）]]></label>
+			</part>
+			<part type="matrix_option" sn="f9da60ba-c767-4426-b732-b3d08654ba0e"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="5" direction="col" score="0">
+				<label><![CDATA[好]]></label>
+			</part>
+			<part type="matrix_option" sn="264ce85a-c7f4-4990-b3c3-177b1d5e057d"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="6" direction="col" score="0">
+				<label><![CDATA[一般]]></label>
+			</part>
+			<part type="matrix_option" sn="d860f0ba-6fa1-488a-ba46-f874450201d6"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="7" direction="col" score="0">
+				<label><![CDATA[差]]></label>
+			</part>
+			<part type="matrix_option" sn="91882b2d-21b2-490c-80b3-ab2e0c74decf"
+				create_time="2010-11-01 16:25:55" update_time="2010-11-01 16:25:55.252155"
+				rank="8" direction="col" score="0">
+				<label><![CDATA[很差]]></label>
+			</part>
+		</part>
+	</part>
+	<part type="page" sn="4b30ff48-03ba-4131-8587-d0f54826630f"
+		create_time="2010-11-01 16:46:13" update_time="2010-11-01 16:46:13.252798"
+		rank="2">
+		<part type="separator" sn="feb0850a-df05-4812-8362-9493a6e7e659"
+			create_time="2010-11-01 16:46:13" update_time="2010-11-01 16:52:45"
+			rank="1">
+			<title><![CDATA[这是第二页（分隔符）]]></title>
+			<intro><![CDATA[<p>
+	这一页就不放那么多题了</p>
+]]></intro>
+		</part>
+		<part type="select" sn="027ae33c-41f8-4f8d-938c-5f5d0987c7de"
+			create_time="2010-11-01 16:46:13" update_time="2010-11-01 16:46:13.252798"
+			rank="2" is_require="1" form_type="radio" column_per_row="1"
+			least_choice="0" most_choice="0" shuffle_options="0">
+			<subject />
+			<intro />
+			<part type="select_option" sn="31cbbebe-70ac-4f0b-95ba-7bcfd348047e"
+				create_time="2010-11-01 16:46:13" update_time="2010-11-01 16:46:13.252798"
+				rank="1" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label />
+				<url />
+			</part>
+			<part type="select_option" sn="814928f1-bae1-4fe6-83f1-280bea03b192"
+				create_time="2010-11-01 16:46:13" update_time="2010-11-01 16:46:13.252798"
+				rank="2" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label />
+				<url />
+			</part>
+			<part type="select_option" sn="3f0dc3a0-5fe1-4061-9f75-158a93ce21d2"
+				create_time="2010-11-01 16:46:13" update_time="2010-11-01 16:46:13.252798"
+				rank="3" mime="text/plain" score="0" allow_specify="0" input_width="0"
+				least_input="0" most_input="0">
+				<label />
+				<url />
+			</part>
+		</part>
+	</part>
+</survey>
